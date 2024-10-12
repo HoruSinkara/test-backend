@@ -5,7 +5,6 @@ import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
 import org.jetbrains.exposed.dao.IntIdTable
 import org.joda.time.format.DateTimeFormat
-import java.time.format.DateTimeFormatter
 
 object AuthorTable : IntIdTable("author") {
     val fio = text("fio")
